@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Quicksand", serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/* Utility classes */
+.btn-primary{
+    color: #fff;
+    border: 1px solid #c1ab84;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #c1ab84;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: black;
+}
+.btn1-primary{
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+
+}
+.btn1-primary:hover{
+    background-color: #fff;
+    color: black;
+}
+/* Header start */
+header{
+    height: 100vh;
+    background: url(images/drew-coffman-1872.jpg) center/cover no-repeat;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+}
+#navbar ul{
+    display: flex;
+    margin-right: 75px;
+}
+#navbar ul a{
+    padding: 15px 15px;
+    color: #fff;
+    font-weight: 500;
+}
+#navbar ul a:hover{
+    border-bottom: 2px solid #fff;
+}
+header .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+header .content h1{
+    font-size: 40px;
+    color: #fff;
+}
+header .content p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: #fff;
+}
+
+/* Header End */
+/* About start */
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about .about-content h2{
+    font-size: 25px;
+    color: rgb(119, 118, 118);
+}
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+}
+#about .about-content img{
+    width: 500px;
+}
+#about .about-content p{
+    margin-left: 7rem;
+    color: rgb(119, 118, 118);
+    font-weight: 500;
+}
+#about .about-content h2{
+    margin-left: 7rem;
+    color: rgb(119, 118, 118);
+    font-size: 25px; 
+    margin-bottom: 4rem;
+}
+#about .about-content ul{
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+    margin-top: 4rem;
+
+}
+/* About End */
+/* location start */
+#location{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#location .title h2{
+    font-size: 25px;
+    color: rgb(119, 118, 118);
+    margin-bottom: 4rem;
+}
+#location .title{
+    display: flex;
+    justify-content: space-between;
+}
+#location .title img{
+    width: 500px;
+}
+#location .title p{
+    margin-right: 7rem;
+    color: rgb(119, 118, 118);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    
+}
+/* location end */
+/* baking start */
+#baking{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f4f4f4; */
+}
+#baking .tit{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#baking .tit h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#baking .tit p{
+    font-weight: 500;
+}
+#baking .more-content{
+    display: flex;
+    justify-content: space-between;
+}
+#baking .more-content .item{
+    width: 31%;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+#baking .more-content .item img{
+    width: 400px;
+}
+#baking .more-content .item h2{
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+/* baking end */
+/* info start */
+#info{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+#info .contact-content{
+    display: flex;
+    justify-content: space-between;
+}
+#info .contact-content h2{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 5rem;
+}
+#info .contact-content p{
+    margin-right: 7rem;
+    color: rgb(119, 118, 118);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+#info .contact-content ul{
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4rem;
+}
+/* info end */
+/* about us start */
+#about-us{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1a11;
+}
+#about-us .footer{
+    display: flex;
+    justify-content: space-between;
+}
+#about-us .footer .it{
+    width: 24%;
+    color: rgb(160, 156, 156);
+}
+#about-us .footer .it h2{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+#about-us .footer .it p{
+    margin-bottom: 3rem;
+}
+#about .footer .it ul{
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+    margin-top: 4rem;
+}
+/* about us end */
+/* foot start */
+#bottom{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 40, 40);
+}
+
+#bottom .bott img{
+    width:300px;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+}
+#bottom .bott p{
+    text-align: center;
+    color: rgb(160, 156, 156);
+    font-size: 12px;
+}
+/* foot end */
